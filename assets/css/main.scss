@@ -1,0 +1,21 @@
+.taskBtn {
+    color: red;
+    margin: 0.5em;
+}
+
+.btn-container{
+    display: inline-flex;
+}
+
+.tippy-content {
+    padding: 0
+}
+
+
+li[data-task="1"]>input[type="checkbox"]:checked, input[type="checkbox"][data-task="1"]:checked{
+    background-color: red;
+}
+
+.editor-tooltip{
+    color: green;
+}
